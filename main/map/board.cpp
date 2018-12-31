@@ -3,8 +3,9 @@
 
 char board::univ[] = {3,5,6,7,9,10,11,12,13,14,15};
 //char board::univ[] = {3,5};
-char board::univ_obj[] = {0,1,2,3,4};
+char board::univ_obj[] = {'0','1','2','3','4'};
 char board::univ_length = sizeof (board::univ)/sizeof (board::univ[0]);
+char board::univ_obj_length = sizeof (board::univ_obj)/sizeof (board::univ_obj[0]);
 
 char board::board_x_s = 7;
 char board::board_y_s = 7;

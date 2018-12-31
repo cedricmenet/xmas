@@ -173,6 +173,8 @@ void map_gen::apply_move(const my_move &m,bool p1)
             p_tile = tmp_tile;
         }
     }
+    
+    
 
 
     if(p1)

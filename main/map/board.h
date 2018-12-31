@@ -16,8 +16,11 @@ struct obj{
 
 struct board{
     static char univ[];
-    static char univ_obj[];
+
     static char univ_length;
+
+    static char univ_obj[];
+    static char univ_obj_length;
     static char board_x_s;
     static char board_y_s;
     static char board_s;//the board size x*y
@@ -35,8 +38,13 @@ struct board{
     char objs_p1_s;
     char objs_p2_s;
 
-    char objs_p1_active[3];
-    char objs_p2_active[3];
+    char* objs_p1_active;
+    char objs_p1_active_length;
+
+    char* objs_p2_active;
+    char objs_p2_active_length;
+
+
 
 };
 

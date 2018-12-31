@@ -37,6 +37,8 @@ public:
     static int negaMaxCache(map_cache& cache, map_gen& node, int depth, int alpha, int beta, char color);
 
 
+    board getBoard() const;
+
 private :
     board m_b;
 
