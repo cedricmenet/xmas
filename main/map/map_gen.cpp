@@ -175,6 +175,8 @@ void map_gen::apply_move(const my_move &m,bool p1)
     }
 
 
+
+
     if(p1)
         m_b.p1_tile = p_tile ;
     else
